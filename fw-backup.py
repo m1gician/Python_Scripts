@@ -5,8 +5,8 @@ fgt= {
     'host': 'Lab-Forti-1',
     'device_type': 'fortinet',
     'ip': '192.168.1.36',
-    'username': 'admin',
-    'password': 'Thenry14'
+    'username': 
+    'password': 
 }
 
 net_connect = ConnectHandler(**fgt)
