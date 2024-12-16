@@ -5,8 +5,8 @@ asa = {
     'host': 'ASAv918-FW-1',
     'device_type': 'cisco_asa',
     'ip': '192.168.1.90',
-    'username': 'admin',
-    'password': 'Thenry14'
+    'username': 
+    'password': 
 }
 
 net_connect = ConnectHandler(**asa)
