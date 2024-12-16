@@ -14,8 +14,8 @@ for devices in device_list:
     fgt = {
     'device_type': 'fortinet',
     'ip': ip_address_of_device,
-    'username': 'admin',
-    'password': 'Thenry14'
+    'username': 
+    'password':
 }
 
 net_connect = ConnectHandler(**fgt)
