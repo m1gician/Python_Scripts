@@ -5,8 +5,8 @@ nxos= {
     'host': 'nbp-cor-sw1',
     'device_type': 'cisco_nxos',
     'ip': '10.20.249.1',
-    'username': 'msmith',
-    'password': 'Thenry@24_7'
+    'username': 
+    'password': 
 }
 
 net_connect = ConnectHandler(**nxos)
