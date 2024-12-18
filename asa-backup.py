@@ -1,16 +1,21 @@
 from netmiko import ConnectHandler
+from getpass import getpass
 import datetime
+
+#Promt for username and password
+username = input('Enter your remote username: ')
+password = getpass()
 
 asa = {
     'host': 'ASAv918-FW-1',
     'device_type': 'cisco_asa',
     'ip': '192.168.1.90',
-    'username': 
-    'password': 
+    'username': username,
+    'password': password
 }
 
 net_connect = ConnectHandler(**asa)
-comment = 'Connecting to Device'
+comment = 'Connecting to Firewall'
 print(comment)
 
 # run configuration output on device
