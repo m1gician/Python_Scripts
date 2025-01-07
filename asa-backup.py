@@ -7,9 +7,9 @@ username = input('Enter your remote username: ')
 password = getpass()
 
 asa = {
-    'host': 'ASAv918-FW-1',
+    'host': 'ashp-vp2',
     'device_type': 'cisco_asa',
-    'ip': '192.168.1.90',
+    'ip': '10.2.247.250',
     'username': username,
     'password': password
 }
