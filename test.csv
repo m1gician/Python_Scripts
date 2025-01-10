@@ -1,0 +1,4 @@
+ID, Hostname, Location
+001, router_01, HQ
+002, switch_01, DC
+003, fw_02, HQ
