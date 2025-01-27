@@ -22,11 +22,7 @@ for ip in park:
       f.write(str(ip) + ' is up '+'\n')
       f.close() 
     # print output file to screen
-with open("ip_output.txt") as file:
-    output = file.read()
-    for line in output:
-        f.write(line)
-    f.close()
-    print(output)
-#with open("ip_output.txt","w") as file:    
+with open("ip_output.txt",'r') as file:
+     print(file)
+with open("ip_output.txt","w") as file:    
     pass
